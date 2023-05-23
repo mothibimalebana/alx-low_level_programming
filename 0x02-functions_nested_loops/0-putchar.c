@@ -1,7 +1,6 @@
 #include<unistd.h>
-
 /**
- * main: executes the program
+ * main - Executes the program in the code
  *
  * Description: Prints "_putchar" followed by a new line"
  *
@@ -11,6 +10,6 @@
 
 int main(void)
 {
-        write(STDOUT_FILENO, "_putchar\n", 9);
-        return (0);
+	write(STDOUT_FILENO, "_putchar\n", 9);
+	return (0);
 }
