@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -5,10 +6,16 @@
  * 
  * @void: main function does not take any parameters.
  * 
+* @void: main function does not take any parameters.
+ * 
+ * Return: main fucntion does not have any parameters.
  * Return: main fucntion does not have any parameters.
  * 
- * Description: program generates random numbers and determines if even or odd.
- * */
+* Return: main fucntion does not have any parameters.
+ * 
+* Description: program generates random numbers and determines if even or odd.
+*/
+
 int main(void)
 {
 	int n;
@@ -16,18 +23,21 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
+	/* your code goes there */
+
+/* your code goes there */
 
     if(n >= 0)
     {
-        printf("%d is positive",n);
+        printf("%d is positive\n",n);
     }
     else if(n == 0)
     {
-        printf("%d is zero",n);
+        printf("%d is zero\n");
     }
     else
     {
-        printf("%d is negative",n);
+        printf("%d is negative\n",n);
     }
 	return (0);
 }
