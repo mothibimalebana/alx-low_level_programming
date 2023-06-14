@@ -19,5 +19,6 @@ int main(void)
 		putchar(uC++);
 		putchar('\n');
 	}
+		putchar('\n');
 	return (0);
 }
