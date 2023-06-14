@@ -12,12 +12,10 @@ int main(void)
 	while (sC <= 'z')
 	{
 		putchar(sC++);
-		putchar('\n');
 	}
 	while (uC <= 'Z')
 	{
 		putchar(uC++);
-		putchar('\n');
 	}
 		putchar('\n');
 	return (0);
