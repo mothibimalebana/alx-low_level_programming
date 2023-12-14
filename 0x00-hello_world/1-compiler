@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -dumpbase -c $CFILE
+gcc -c $CFILE
