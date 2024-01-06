@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * reset_to_98 - Function that updates value to 98.
- * @n: Pointet to an int.
+ * reset_to_98 - Function that updates parameter to 98.
+ * @n: Value to be updated to 98.
  *
- * Return: Void.
+ * Return: void. (nothing)
  */
 void reset_to_98(int *n)
 {
