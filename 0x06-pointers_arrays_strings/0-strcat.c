@@ -10,11 +10,11 @@ char *_strcat(char *dest, char *src)
 {
 	/**Initialize variables**/
 	int i;
+	int dest_lenght;
+	char *cat;
 
-	for (i = 0; src[i] != '\0'; i++)
-		dest[i] = src[i];
-	dest[i] = '\0';
-
-	return (dest);
+	/**Get length of dest array**/
+	for (i = 0; dest[i] != '\0'; i++)
+		dest_length++;
 }
 
