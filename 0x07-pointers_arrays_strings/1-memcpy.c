@@ -11,12 +11,11 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	/**Initialise variables**/
 	unsigned int i;
-	char *s = dest;
 
 	/**Move pointer to nth element of dest**/
-	while (*s != '\0')
+	while (*dest != '\0')
 	{
-		s++;
+		dest++;
 	}
 
 	/**Copy n bytes from src to dest**/
@@ -28,6 +27,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	}
 	dest[i] = '\0';
 
-	s = dest;
-	return (s);
+	return (dest);
 }
